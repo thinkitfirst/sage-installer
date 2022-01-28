@@ -38,13 +38,13 @@ class PresetCommand extends Command
     protected function configure()
     {
         parent::configure();
-        $this->addOption(
-            'overwrite',
-            'N',
-            InputOption::VALUE_NONE,
-            'Confirm overwriting files',
-            null
-        );
+        // $this->addOption(
+        //     'overwrite',
+        //     'N',
+        //     InputOption::VALUE_NONE,
+        //     'Confirm overwriting files',
+        //     null
+        // );
     }
 
     /** {@inheritdoc} */
