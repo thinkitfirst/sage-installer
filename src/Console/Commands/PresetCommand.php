@@ -40,7 +40,7 @@ class PresetCommand extends Command
         parent::configure();
         $this->addOption(
             'overwrite',
-            'Y',
+            'N',
             InputOption::VALUE_NONE,
             'Confirm overwriting files',
             null
